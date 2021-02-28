@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9a9a3777-e92d-4a23-b3ca-a6e629f4be0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/userActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,8 @@
       <workItem from="1612200514942" duration="2730000" />
       <workItem from="1612372721456" duration="3295000" />
       <workItem from="1612446824836" duration="6033000" />
-      <workItem from="1612617397159" duration="4611000" />
+      <workItem from="1612617397159" duration="4821000" />
+      <workItem from="1614527588793" duration="4563000" />
     </task>
     <servers />
   </component>
