@@ -22,7 +22,7 @@ const Header = ()=>{
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                        <Navbar.Brand>AlphaShop</Navbar.Brand>
+                        <Navbar.Brand>AlphaEShop</Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Route render={({ history }) => <SearchBox history={history} />} />
