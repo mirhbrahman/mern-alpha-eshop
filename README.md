@@ -1,4 +1,4 @@
 # ALPHAESHOP
 Full feature MERN ecommerce
 
-[Visit to https://alphaeshop.herokuapp.com/](https://alphaeshop.herokuapp.com/)
+[Visit to https://alphaeshop.herokuapp.com](https://alphaeshop.herokuapp.com)
