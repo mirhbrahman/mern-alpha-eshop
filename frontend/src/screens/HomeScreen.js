@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import {Helmet} from "react-helmet";
 import { useDispatch, useSelector } from 'react-redux'
 import Product from "../components/Product"
 import { Row, Col } from 'react-bootstrap'
@@ -6,6 +7,9 @@ import { listProducts } from "../actions/productActions";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
 import Paginate from "../components/Paginate";
+import ProductCarousel from "../components/ProductCarousel";
+import {Link} from "react-router-dom";
+import Meta from "../components/Meta";
 
 const HomeScreen = ({match}) => {
     const keyword = match.params.keyword || ''
@@ -22,6 +26,14 @@ const HomeScreen = ({match}) => {
 
     return (
         <>
+            <Meta />
+            {!keyword ? (
+                <ProductCarousel />
+            ) : (
+                <Link to='/' className='btn btn-light'>
+                    Go Back
+                </Link>
+            )}
             <h1>Latest Products</h1>
             {loading ? (<Loader>Loading...</Loader>) : error ? (<Message variant='danger'>{error}</Message>) :
                 <>
